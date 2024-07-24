@@ -3,8 +3,8 @@
 > a rehype micro-plugin that wraps an `element` in another `element`
 
 <p>
-    <img alt="NPM License" src="https://img.shields.io/npm/l/rehype-wrap-element">
-    <img alt="NPM Version" src="https://img.shields.io/npm/v/rehype-wrap-element">
+    <a href="https://github.com/kavin81/rehype-wrap-element/blob/main/LICENSE"><img alt="NPM License" src="https://img.shields.io/npm/l/rehype-wrap-element"></a>
+    <a href="https://npmjs.com/rehype-wrap-element"><img alt="NPM Version" src="https://img.shields.io/npm/v/rehype-wrap-element"></a>
 </p>
 
 ## Table of Contents
