@@ -22,5 +22,9 @@
 	},
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
-	"files": ["dist"]
+	"files": [
+		"dist"
+	],
+	"repository": "github:kavin81/rehype-wrap-element",
+	"homepage": "https://github.com/kavin81/rehype-wrap-element"
 }
