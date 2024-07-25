@@ -80,4 +80,6 @@ function rehypeWrapElement({ target, wrapper }: rehypeWrapElementOptions) {
     };
 }
 
-export {rehypeWrapElement,rehypeWrapElementOptions};
+
+export default rehypeWrapElement;
+export { rehypeWrapElement ,rehypeWrapElementOptions};

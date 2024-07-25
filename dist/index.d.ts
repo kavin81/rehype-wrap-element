@@ -8,7 +8,7 @@ interface ElementOptions {
 /**
  * Parameter type for the `rehypeWrapElement` function.
  */
-type ElementParam = {
+type rehypeWrapElementOptions = {
     target: string | ElementOptions;
     wrapper: string | ElementOptions;
 };
@@ -22,6 +22,6 @@ type ElementParam = {
  * @example rehypeWrapElement({ target: { element: 'p', className: 'target' }, wrapper: 'div' });
  * @example rehypeWrapElement({ target: { element: 'p', className: 'target' }, wrapper: { element: 'div', className: 'wrapper' } });
  */
-declare function rehypeWrapElement({ target, wrapper }: ElementParam): (tree: any) => void;
+declare function rehypeWrapElement({ target, wrapper }: rehypeWrapElementOptions): (tree: any) => void;
 export default rehypeWrapElement;
-//# sourceMappingURL=index.d.ts.map
+export { rehypeWrapElement, rehypeWrapElementOptions };

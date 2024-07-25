@@ -1,6 +1,6 @@
 {
 	"name": "rehype-wrap-element",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "a rehype micro-plugin that wraps an element in another element",
 	"keywords": [
 		"rehype",
@@ -26,5 +26,6 @@
 		"dist"
 	],
 	"repository": "github:kavin81/rehype-wrap-element",
-	"homepage": "https://github.com/kavin81/rehype-wrap-element"
+	"homepage": "https://github.com/kavin81/rehype-wrap-element",
+	"type": "module"
 }

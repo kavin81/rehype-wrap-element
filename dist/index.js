@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const unist_util_visit_1 = require("unist-util-visit");
+import { visit } from 'unist-util-visit';
 /**
  * Wraps elements in a tree with a specified wrapper element.
  * @param param - The target and wrapper elements.
@@ -36,7 +34,7 @@ function rehypeWrapElement({ target, wrapper }) {
      * @param tree - The tree to visit.
      */
     return (tree) => {
-        (0, unist_util_visit_1.visit)(tree, 'element', (node, index, parent) => {
+        visit(tree, 'element', (node, index, parent) => {
             if (node.tagName === targetElement &&
                 (targetClassName === true
                     ? targetClassName
@@ -54,3 +52,5 @@ function rehypeWrapElement({ target, wrapper }) {
         });
     };
 }
+export default rehypeWrapElement;
+export { rehypeWrapElement };
